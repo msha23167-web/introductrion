@@ -1,0 +1,69 @@
+/* style.css */
+
+/* 全体のスタイル設定 */
+body {
+    font-family: 'Yu Gothic', 'Hiragino Kaku Gothic ProN', sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+    background-color: #f0f4f8; /* 薄い青灰色の背景 */
+    color: #333;
+    line-height: 1.7;
+}
+
+/* コンテンツを囲むコンテナ */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* 影を付けて立体感を出す */
+}
+
+/* メインの見出し */
+h1 {
+    color: #1a73e8; /* Google Blueに近い青 */
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #1a73e8;
+}
+
+/* サブの見出し */
+h2 {
+    color: #34a853; /* Google Greenに近い緑 */
+    border-left: 6px solid #34a853;
+    padding-left: 15px;
+    margin-top: 40px;
+    font-size: 1.5em;
+}
+
+/* リストのスタイル */
+ul {
+    list-style-type: none; /* デフォルトの点を消す */
+    padding-left: 0;
+}
+
+ul li {
+    background: #e6f7ff; /* リスト項目の背景色 */
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    border-left: 4px solid #4285f4; /* 左に青いライン */
+}
+
+/* 趣味などの強調 */
+.highlight {
+    font-weight: bold;
+    color: #e8710a; /* オレンジ色 */
+}
+
+/* 締めの挨拶 */
+.closing {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px dashed #ccc;
+    text-align: center;
+    font-style: italic;
+}
